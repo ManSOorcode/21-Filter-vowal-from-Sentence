@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Varela&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+main {
+	max-width: 100%;
+	height: 100vh;
+
+	display: flex;
+
+	justify-content: center;
+	align-items: center;
+
+	background: #333;
+	
+}
+.container {
+	height: 50%;
+	width: 80%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	background: rgba(255, 255, 255, 0.3);
+	border-radius: 30px;
+}
+h3 {
+	margin: 10px 0;
+
+	color: azure;
+	font-size: 1rem;
+}
+.parent {
+	width: 100%;
+	height: 80%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contents {
+	height: 100%;
+	width: 85%;
+
+	outline: none;
+	border-radius: 20px;
+	padding: 10px 20px;
+	border: 2.5px solid #000;
+	resize: none;
+}
+.cousin {
+	margin: 10px;
+	height: 10%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+button {
+	width: 20%;
+	height: 100%;
+	margin-left: 10px;
+
+	border: none;
+	background: #333;
+	color: #fff;
+}
+button:focus {
+	background: #000;
+}
+.count {
+	width: 20%;
+	height: 100%;
+
+	border: 2px solid #fff;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: #899;
+}
